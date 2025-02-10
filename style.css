@@ -1,0 +1,64 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  color: #797979;
+  font-weight: normal;
+}
+
+.banner {
+  background-image: url("images/fr-generative-ai-linkedin-rett-fram-mork.png");
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 5px 0;
+}
+.banner h1 {
+  font-size: 80px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+a:hover {
+  color: #fb0505;
+}
+
+/* Media queries */
+
+@media(max-width: 576px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 650px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
